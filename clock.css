@@ -1,0 +1,113 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: #B3B3D7;
+    padding-left: 37%;
+  }
+  .alarm{
+      background: #544d52;
+      border-radius: 30px;
+      padding : 40px 40px 40px 40px;
+      background-image: url("bg.jpeg");
+
+  }
+  img{
+    align-items: center;
+    padding-left: 40px;
+  }
+  .wrapper{
+      padding-left: 40px;
+      color: #FFFFFF;
+      font-family: "Segoe UI", sans-serif;
+      width: 400px;
+      padding: 15px 20px;
+      transition: 0.5s;
+      transition-property: all;
+  }
+  #alarmclock{
+      text-align: center;
+  }
+  .time{
+      font-size: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .setAlarm{
+      display: flex;
+      justify-content: space-around;
+      border-radius: 10px;
+  }
+  
+  .column select{
+      background:#333399;
+      color: #FFFFFF;
+      text-align: center;
+      padding: 8px 4px;
+      border-radius: 18px;
+  
+  }
+  h3{
+      text-align: center;
+      color: #FFFFFF;
+      padding-top: 30px;
+  }
+  
+  #btn-setAlarm, .btn-delete, #stopAlarm{
+      padding: 5px;
+      color: #FFFFFF;
+      background: #000078; 
+      border-radius: 18px;
+  
+  }
+  
+  #stopAlarm{
+      visibility: hidden;
+      width: 100px;
+      margin: 0 34%;
+  }
+  
+  .btn-delete{
+      margin-left: 50px;
+  }
+  
+  #btn-setAlarm:hover, .btn-delete:hover, #stopAlarm:hover{
+      cursor: pointer;
+      background: #968dc3;
+      box-shadow: 0 0 40px #000078;
+  }
+  
+  .alarmList{
+      
+      color:#FFFFFF;
+      margin: 14px auto;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+  }
+  
+  .alarmLog{
+      font-size: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 6px auto;
+  }
+  
+  
+  
+  
+  
+  
+  
